@@ -9,19 +9,7 @@
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="freehtml5.co" />
 
-	<!-- 
-	//////////////////////////////////////////////////////
 
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -34,8 +22,12 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
+	<script src="https://kit.fontawesome.com/73d63a7f9a.js" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -56,11 +48,74 @@
 
 	</head>
 	<body>
+
+	<!-- navbar -->
+	<!-- <div class="top"  >
+		<nav class="navbar"   >
+			<div class="brand-title">Alen T Vinsent</div>
+			<a href="#" class="toggle-button"> -->
+				<!-- <span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span> -->
+
+				<!-- <i class="fa-solid fa-bars"></i>
+			</a>
+			<div class="navbar-links">
+				<ul>
+					<li><a href="#fh5co-about">About</a></li>
+					<li><a href="#fh5co-features">My service</a></li>
+					
+					<li><a href="#fh5co-work">Works</a></li>
+				</ul>
+				
+			</div>
+		</nav>
+	</div> -->
+
+	<!-- new nav of zoom -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light " style=" display:flex; align-items:center; justify-content:end;position: fixed;z-index:1; font-size:small;width:100%">
+            
+		<img  class="navbar-brand" style="height:3rem ;" src="zoom.png" alt="zoom image not found">
 		
-	<div class="fh5co-loader"></div>
+		<!-- ////////////////////////////////////////////// -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- ////////////////////////////////////////////// -->
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto" >
+			<li class="nav-item " style="display:flex; justify-content:center; align-items: center;">
+			  <a class="nav-link " href="#fh5co-about">About</a>
+			</li>
+			
+			<li class="nav-item4" style="display:flex; justify-content:center; align-items: center;">
+			<a class="nav-link " href="#fh5co-features">My service 
+			</a>
+			</li>
+			<li class="nav-item3 " style="display:flex; justify-content:center; align-items: center;">
+			<a class="nav-link " href="#fh5co-work">Work
+			</a>
+			</li>
+			
+
+			<div id="navbarText " style="display:inline-block ">
+			
+			
+			</div>
+		
+		  </ul>
+		</div>
+	  </nav>
+
+
+
+
+		
 	
-	<div id="page">	
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+	
+	<div id="page" style="padding-top: 10%;">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5"  >
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -74,7 +129,7 @@
 								<ul class="fh5co-social-icons">
 									<li><a href="#"><i class="icon-twitter2"></i></a></li>
 									<li><a href="#"><i class="icon-facebook2"></i></a></li>
-									<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/alen-t-vinsent-1624b6245/" target="_blank"><i class="icon-linkedin2"></i></a></li>
 									<li><a href="#"><i class="icon-dribbble2"></i></a></li>
 								</ul>
 							</p>
@@ -374,7 +429,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
+						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpeg);"></a>
 						<div class="blog-text">
 							<h3><a href="#">Faculty recognition software</a></h3>
 							<p>As a part of research and development wing i developed a software to detect any faculty's face and show their Resume live</p>
@@ -388,7 +443,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
+						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.png);"></a>
 						<div class="blog-text">
 							<h3><a href="#">AR applcation using Unity 3d</a></h3>
 							<p>As a part of research and development wing i developed 5 ar application using unity to entertain people as a part of an AR and VR event</p>
@@ -424,79 +479,35 @@
 		</div>
 		<div class="choose animate-box">
 			<h2>Contact</h2>
-			<!-- formmmmm and formmmm  form action -->
-			<!-- <form action="" >
-				<div class="row form-group">
-					<div class="col-md-6">
-						<input type="text" id="fname" class="form-control" placeholder="Your firstname" required>
+			
+
+
+
+
+
+<!-- newwww -->
+			<form id="submit-form" action="">
+				<div >
+					<div class="form-group ">
+						<input type="text" class="form-control" name="name" placeholder="Your Name" id="contact-name" onkeyup="validateName()"/>
+						<span id="name-error"></span>
 					</div>
-				</div>
-				<div class="row form-group">
-					<div class="col-md-6">
-						<input type="text" id="lname" class="form-control" placeholder="Your lastname" required>
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12" id="form">
-						<input type="email" id="email" class="form-control" placeholder="Your email address" required>
-					</div>
-				</div>
-
-
-
-				
-
-
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message" required>
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+					<div class="form-group ">
+						<input type="email" class="form-control" name="email" placeholder="Your Email" id="contact-email" onkeyup="validateEmail()" />
+						<span id="email-error"></span>
 					</div>
 				</div>
 				<div class="form-group">
-					<input type="submit"  id="submit" value="Send Message" class="btn btn-primary" onkeydown="validation()" >
+					<input type="text" class="form-control" name="phone" placeholder="Mobile" id="contact-mobile" onkeyup="validateMobile()" />
+					<span id="mobile-error"></span>
 				</div>
-
-			</form>	 -->
-
-
-			<!-- Another Form -->
-
-			<form name="sentMessage" id="contactForm" novalidate="novalidate">
-				<div class="form-row">
-					<div class="control-group col-sm-6">
-						<input class="form-control p-4" type="text" name="name" placeholder="Your Name" id="contact-name" onkeyup="validateName()">
-						<span class="text-danger" id="Name-error"></span>
-					</div>
-					<div class="control-group col-sm-6">
-						<input type="email" class="form-control p-4" type="text" name="Email" placeholder="Email Address" id="contact-email" onkeyup="validateEmail()">
-							
-						<p class="help-block text-danger">
-							<span id="Email-error" > </span>
-
-						</p>
-					</div>
+				<div class="form-group">
+					<textarea class="form-control" name="message" rows="5" placeholder="Message" id="contact-message" onkeyup="validateMessage()"></textarea>
+					<span id="message-error"></span>
 				</div>
-				
-				<div class="control-group">
-					<textarea class="form-control py-3 px-4" rows="5" name="Message" rows="6" placeholder="Enter message here.." id="contact-message" onkeyup="validateMessage()"></textarea>
-					<span class="text-danger" id="Message-error" > </span>
-				</div>
-				<br>
-				<div>
-					<button class="btn btn-outline-primary" type="submit" onclick="return validateForm()" value="Submit">Send Message</button>
-					
-					<span id="Submit-error"></span>
-				</div>
+				<div class="button"><button class="btn" type="submit" onclick="return validateForm()">Send Message</button></div>
+			<span id="btnError"></span>
 			</form>
-
 		</div>
 	</div>
 
@@ -515,6 +526,26 @@
 		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
 	</div>
 	
+	<script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbxYCdHoy0nNTCoy7XRuLQM_qcnKpoGy3LyoqcvzK6cJMYowZJ-lNv-bkiwiqDVyk29GWA/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -530,6 +561,7 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 	<script src="js/validation.js"></script>
+	<script src="js/script.js"></script>
 
 
 	<!-- <script >
@@ -564,25 +596,7 @@
 	</script> -->
 
 
-	<script>
-        $("#contactForm").submit((e) => {
-            e.preventDefault()
-            $.ajax({
-                url: "https://script.google.com/macros/s/AKfycbxYCdHoy0nNTCoy7XRuLQM_qcnKpoGy3LyoqcvzK6cJMYowZJ-lNv-bkiwiqDVyk29GWA/exec",
-                data: $("#contactForm").serialize(),
-                method: "post",
-                success: function (response) {
-                    alert("Form submitted successfully")
-                    window.location.reload()
-                    //window.location.href="https://google.com"
-                },
-                error: function (err) {
-                    alert("Something Error")
-
-                }
-            })
-        })
-    </script>
+	
 
 
 	</body>
