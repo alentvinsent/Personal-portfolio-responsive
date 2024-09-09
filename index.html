@@ -29,6 +29,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-Q9ZX9SD573');
+	</script>
+
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -467,7 +475,11 @@
 						<h2>Hire Me!</h2>
 						<p>Great vision without great people is irrelevant ,Leaders don’t create followers, they create
 							more leaders so hire me to be your leader</p>
-						<p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p>
+						<p>
+							<!-- <a href="#" class="btn btn-default btn-lg">Contact Us</a> -->
+							<button onclick="contactUs()" class="btn btn-default btn-lg"> Contact Us</button>
+
+						</p>
 					</div>
 				</div>
 			</div>
@@ -573,16 +585,17 @@
 
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q9ZX9SD573"></script>
+
+
+
 		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() { dataLayer.push(arguments); }
-			gtag('js', new Date());
-
-			gtag('config', 'G-Q9ZX9SD573');
+			function contactUs() {
+				gtag('event', 'CONTACT_US_CLICK', {
+					'app_name': 'AlensMyAppName',
+					'screen_name': 'Contact_uss____'
+				});
+			}
 		</script>
-
-
-
 
 </body>
 
